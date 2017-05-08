@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 
 @Injectable()
 export class ArticleService {
-  private serverURL: string = "http://localhost:8888/api/content";
+  private serverURL: string = "http://localhost:8888/";
   private headers: Headers = new Headers(
     {
       'Accept': 'application/json',
